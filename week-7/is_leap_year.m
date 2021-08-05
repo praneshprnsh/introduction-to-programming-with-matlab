@@ -4,7 +4,7 @@ function p = is_leap_year(year)
             if mod(year, 400) == 0
                 p = true;
             else
-                p = false;
+                p = true;
             end
         else
             p = true;
